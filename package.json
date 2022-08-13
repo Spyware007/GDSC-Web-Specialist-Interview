@@ -1,0 +1,27 @@
+{
+  "name": "gdsc-web-specialist-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,json}' --config ./.prettierrc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spyware007/GDSC-Web-Specialist-Interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spyware007/GDSC-Web-Specialist-Interview/issues"
+  },
+  "homepage": "https://github.com/Spyware007/GDSC-Web-Specialist-Interview#readme",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1"
+  }
+}

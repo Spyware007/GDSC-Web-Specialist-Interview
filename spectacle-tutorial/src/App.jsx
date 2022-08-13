@@ -1,5 +1,5 @@
-import React from "react";
-import { Deck, Slide, Heading } from "spectacle";
+import React from 'react';
+import { Deck, Slide, Heading } from 'spectacle';
 
 function App() {
   return (
