@@ -1,14 +1,17 @@
 import React from 'react';
-import { Deck, Slide, Heading } from 'spectacle';
+import { Deck, Slide, Heading, Quote } from 'spectacle';
+import { Main } from './Components';
+import { transition1, transition2 } from './constants';
 
-function App() {
+const App = () => {
   return (
     <>
       <Deck>
-        <Slide>
-          <Heading>Welcome to Spectacle</Heading>
+        <Slide backgroundColor="#fff" transition={transition1}>
+          {/* <Heading>Welcome to Spectacle</Heading> */}
+          <Main />
         </Slide>
-        <Slide>
+        <Slide transition={transition2}>
           <Heading>Welcome to </Heading>
         </Slide>
         <Slide>
@@ -17,9 +20,15 @@ function App() {
         <Slide>
           <Heading>Welcome to Jungle </Heading>
         </Slide>
+        <Slide>
+          <Quote>
+            <Quote>Welcome to Jungle</Quote>
+          </Quote>
+        </Slide>
+        <Slide></Slide>
       </Deck>
     </>
   );
-}
+};
 
 export default App;
