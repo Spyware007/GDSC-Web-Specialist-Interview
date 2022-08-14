@@ -10,10 +10,10 @@
   height: 450px;
   border-radius: 50%;
   background-image: linear-gradient(315deg, #fff3a4 0%, #fff3a4 74%);
-
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .project_img {
   margin-top: 40px;
