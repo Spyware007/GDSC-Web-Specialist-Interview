@@ -18,9 +18,9 @@ const About = () => {
           <div className={classes.separator}></div>
 
           <ul className={classes.about_list}>
-            {/* <Stepper tagName="li" alwaysVisible values={['foo', 'bar']}>
-              <li className={classes.about_list_items}>Full-stack Developer</li>
-            </Stepper> */}
+            <Stepper tagName="li" alwaysVisible values={['3rd Year Computer']}>
+              {(value, step, isActive) => (isActive ? value : '')}
+            </Stepper>
             <Stepper
               tagName="li"
               alwaysVisible

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Deck, Slide, Heading, Quote } from 'spectacle';
-import { Main, About, Whyme, Projects } from './Components';
+import { Main, About, Vision, Projects } from './Components';
 import {
   transition1,
   transition2,
@@ -35,7 +35,7 @@ const App = () => {
           <Projects />
         </Slide>
         <Slide backgroundColor="#F6F6F6" transition={transition4}>
-          <Whyme />
+          <Vision />
         </Slide>
         <Slide>
           <Quote>

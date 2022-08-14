@@ -26,12 +26,12 @@ const Navbar = ({ active }) => {
           </li>
           <li
             className={
-              active === 'whyme'
+              active === 'vision'
                 ? `${classes.item} ${classes.active}`
                 : classes.item
             }
           >
-            Why Me
+            Vision
           </li>
         </ul>
       </nav>
