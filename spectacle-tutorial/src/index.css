@@ -1,3 +1,31 @@
+@font-face {
+  font-family: Quciksand;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local('Quicksand'),
+    url('./Assets/Fonts/Quicksand-Light.otf') format('opentype');
+}
+@font-face {
+  font-family: QuicksandBold;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local('QuicksandBold'),
+    url('./Assets/Fonts/Quicksand-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: BeVietnam;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local('BeVietnamBold'),
+    url('./Assets/Fonts/BeVietnam-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: BeVietnamBold;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local('BeVietnamBold'),
+    url('./Assets/Fonts/BeVietnam-Bold.ttf') format('truetype');
+}
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +33,9 @@
 }
 body,
 html {
-  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(to bottom, #3b424b, #070a0c);
 }
+
 body::-webkit-scrollbar {
   width: 0.65rem;
 }

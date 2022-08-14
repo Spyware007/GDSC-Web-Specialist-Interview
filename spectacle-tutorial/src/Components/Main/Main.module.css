@@ -1,4 +1,45 @@
 .circlegrid {
-  top: 100px;
-  left: 0px;
+  bottom: 30px;
+  right: 100px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: relative; */
+  margin-top: 100px;
+}
+.image {
+  margin-left: 100px;
+}
+.name {
+  color: #000;
+  font-family: QuicksandBold, sans-serif;
+  text-transform: uppercase;
+  font-size: 140px;
+  /* margin-left: 100px; */
+  line-height: 120px;
+}
+.grid {
+  width: 300px;
+  position: absolute;
+  right: 100px;
+  bottom: 40px;
+}
+
+.main::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2e0cf1;
+  background-image: linear-gradient(315deg, #fff3a4 0%, #fff3a4 74%);
+  overflow: hidden;
+  /* transform: skewX(40deg); */
+  rotate: 45deg;
+  translate: -180px -50px;
+  transform-origin: 0 0;
+  z-index: -1;
 }

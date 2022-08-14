@@ -3,15 +3,26 @@ import { Deck, Slide, Heading, Quote } from 'spectacle';
 import { Main } from './Components';
 import { transition1, transition2 } from './constants';
 
+// const theme = {
+//   colors: {
+//     primary: 'linear-gradient(to top, #ffffff, #070a0c)',
+//     secondary: '#00f'
+//   },
+//   fontSizes: {
+//     header: '64px',
+//     paragraph: '28px'
+//   }
+// };
+
 const App = () => {
   return (
     <>
       <Deck>
+        {/* theme={theme} */}
         <Slide backgroundColor="#fff" transition={transition1}>
-          {/* <Heading>Welcome to Spectacle</Heading> */}
           <Main />
         </Slide>
-        <Slide transition={transition2}>
+        <Slide backgroundColor="#F6F6F6" transition={transition2}>
           <Heading>Welcome to </Heading>
         </Slide>
         <Slide>
