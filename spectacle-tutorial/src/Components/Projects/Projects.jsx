@@ -1,21 +1,16 @@
 import React from 'react';
-import { useEffect } from 'react';
 import Navbar from '../Navbar/Navbar';
 import classes from './Projects.module.css';
 // import draic from '../../Assets/Projects/draic.png';
 
 const Projects = ({ project }) => {
-  useEffect(() => {
-    console.log(project);
-  }, []);
-
   return (
     <>
       <Navbar active="projects" />
       <div className={classes.project_section}>
         <div className={classes.project_img_container}>
           <img className={classes.project_img} src={project.img} alt="" />
-          <h6>No. of commits:-</h6>
+          <h6 className={classes.commits}>{`${project.commits}+ Commits`}</h6>
         </div>
         <div className={classes.project_content}>
           <h5 className={classes.project_tech}>{project.tech}</h5>

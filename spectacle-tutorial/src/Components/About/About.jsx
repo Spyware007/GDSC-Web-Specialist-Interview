@@ -55,6 +55,13 @@ const About = () => {
             <Stepper tagName="li" alwaysVisible values={['Building Xp House']}>
               {(value, step, isActive) => (isActive ? value : '')}
             </Stepper>
+            <Stepper
+              tagName="li"
+              alwaysVisible
+              values={['Participated in many hackathons']}
+            >
+              {(value, step, isActive) => (isActive ? value : '')}
+            </Stepper>
           </ul>
         </div>
       </div>

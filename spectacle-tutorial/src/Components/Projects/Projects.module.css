@@ -41,6 +41,7 @@
   background-color: #000;
   border-radius: 20px;
   margin: 30px 0;
+  margin-top: 0px;
 }
 .project_description {
   display: flex;
@@ -51,4 +52,10 @@
   row-gap: 10px;
   color: #5b5b5b;
   font-family: BeVietnam;
+}
+.commits {
+  margin-top: 20px;
+  color: #5b5b5b;
+  font-size: 16px;
+  font-family: BeVietnamBold;
 }

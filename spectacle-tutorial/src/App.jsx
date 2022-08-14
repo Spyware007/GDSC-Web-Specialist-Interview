@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Deck, Slide, Heading, Quote } from 'spectacle';
-import { Main, About, Vision, Projects } from './Components';
+import { Main, About, Vision, Projects, Clubs, Surprise } from './Components';
 import { ProjectsData } from './Assets/Data/ProjectsData';
 import {
   transition1,
@@ -37,20 +37,20 @@ const App = () => {
         </Slide>
         {ProjectsData.map((p, i) => {
           return (
-            <Slide key={i} backgroundColor="#F6F6F6" transition={transition2}>
+            <Slide key={i} backgroundColor="#F6F6F6">
               <Projects project={p} />
             </Slide>
           );
         })}
+        <Slide backgroundColor="#F6F6F6">
+          <Clubs />
+        </Slide>
+        <Slide backgroundColor="#F6F6F6" transition={transition4}>
+          <Surprise />
+        </Slide>
         <Slide backgroundColor="#F6F6F6" transition={transition4}>
           <Vision />
         </Slide>
-        <Slide>
-          <Quote>
-            <Quote>Welcome to Jungle</Quote>
-          </Quote>
-        </Slide>
-        <Slide></Slide>
       </Deck>
     </>
   );
