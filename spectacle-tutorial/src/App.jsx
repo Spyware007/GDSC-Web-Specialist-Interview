@@ -33,7 +33,7 @@ const App = () => {
         <Slide backgroundColor="#F6F6F6" transition={transition2}>
           <Whyme />
         </Slide>
-        <Slide backgroundColor="#F6F6F6">
+        <Slide backgroundColor="#F6F6F6" transition={transition4}>
           <Projects />
         </Slide>
         <Slide>

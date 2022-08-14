@@ -11,14 +11,17 @@
 }
 .image {
   margin-left: 100px;
+  animation: floating 5s ease-in-out infinite;
 }
 .name {
-  color: #000;
+  color: rgb(255, 255, 255);
   font-family: QuicksandBold, sans-serif;
   text-transform: uppercase;
   font-size: 140px;
   /* margin-left: 100px; */
   line-height: 120px;
+  animation: tp 1s ease-in-out infinite backwards;
+  text-shadow: 4px 4px 10px #3f7fbf;
 }
 .grid {
   width: 300px;
@@ -42,4 +45,30 @@
   translate: -180px -50px;
   transform-origin: 0 0;
   z-index: -1;
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 40px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+@keyframes tp {
+  0% {
+    text-shadow: 4px 4px 10px #3f7fbf;
+  }
+
+  50% {
+    text-shadow: 4px 0px 10px #3f7fbf;
+  }
+
+  100% {
+    text-shadow: 4px 4px 10px #3f7fbf;
+  }
 }

@@ -1,0 +1,57 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 35vw;
+  height: 100vh;
+  background-color: #2e0cf1;
+  background-image: linear-gradient(315deg, #fff3a4 0%, #fff3a4 74%);
+  overflow: hidden;
+  /* transform: skewX(40deg); */
+  /* rotate: 45deg; */
+  translate: -180px 150px;
+  transform-origin: 0 0;
+  z-index: -1;
+}
+.about_image {
+  margin-right: 140px;
+  margin-top: 100px;
+}
+.about_content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: #000;
+}
+.about_nick {
+  font-family: BeVietnam;
+  margin-left: 10px;
+}
+.about_text {
+  font-family: Quicksand;
+  font-size: 70px;
+}
+.separator {
+  width: 90px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.about_list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  list-style-type: none;
+  row-gap: 10px;
+  color: #5b5b5b;
+  font-family: BeVietnam;
+}
