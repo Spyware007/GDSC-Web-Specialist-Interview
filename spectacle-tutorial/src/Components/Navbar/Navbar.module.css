@@ -1,0 +1,21 @@
+.nav,
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: BeVietnam, sans-serif;
+}
+.list {
+  width: 400px;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.item {
+  list-style-type: none;
+  padding: 10px 30px;
+}
+.active {
+  background-color: #fff3a4;
+  font-family: BeVietnamBold;
+}

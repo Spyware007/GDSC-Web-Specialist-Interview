@@ -1,7 +1,12 @@
 import React from 'react';
 import { Deck, Slide, Heading, Quote } from 'spectacle';
-import { Main } from './Components';
-import { transition1, transition2 } from './constants';
+import { Main, About, Whyme, Projects } from './Components';
+import {
+  transition1,
+  transition2,
+  transition3,
+  transition4
+} from './constants';
 
 // const theme = {
 //   colors: {
@@ -22,14 +27,14 @@ const App = () => {
         <Slide backgroundColor="#fff" transition={transition1}>
           <Main />
         </Slide>
+        <Slide backgroundColor="#F6F6F6" transition={transition4}>
+          <About />
+        </Slide>
         <Slide backgroundColor="#F6F6F6" transition={transition2}>
-          <Heading>Welcome to </Heading>
+          <Whyme />
         </Slide>
-        <Slide>
-          <Heading>Welcome </Heading>
-        </Slide>
-        <Slide>
-          <Heading>Welcome to Jungle </Heading>
+        <Slide backgroundColor="#F6F6F6">
+          <Projects />
         </Slide>
         <Slide>
           <Quote>
