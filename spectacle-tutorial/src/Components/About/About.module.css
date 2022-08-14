@@ -43,7 +43,7 @@
   height: 4px;
   background-color: #000;
   border-radius: 20px;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 .about_list {
   display: flex;
@@ -54,4 +54,13 @@
   row-gap: 10px;
   color: #5b5b5b;
   font-family: BeVietnam;
+}
+.github {
+  color: #000;
+  font-family: BeVietnam;
+  font-style: italic;
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  font-size: 16px;
 }

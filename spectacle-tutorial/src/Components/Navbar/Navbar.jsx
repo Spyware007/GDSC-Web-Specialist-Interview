@@ -17,21 +17,21 @@ const Navbar = ({ active }) => {
           </li>
           <li
             className={
-              active === 'whyme'
-                ? `${classes.item} ${classes.active}`
-                : classes.item
-            }
-          >
-            Why Me
-          </li>
-          <li
-            className={
               active === 'projects'
                 ? `${classes.item} ${classes.active}`
                 : classes.item
             }
           >
             Projects
+          </li>
+          <li
+            className={
+              active === 'whyme'
+                ? `${classes.item} ${classes.active}`
+                : classes.item
+            }
+          >
+            Why Me
           </li>
         </ul>
       </nav>

@@ -72,3 +72,19 @@
     text-shadow: 4px 4px 10px #3f7fbf;
   }
 }
+.skills_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 7px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.skill_img {
+  width: 35px;
+  transition: all 0.3s ease-in-out;
+}
+.skill_img:hover {
+  scale: 1.4;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

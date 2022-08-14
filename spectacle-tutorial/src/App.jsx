@@ -30,11 +30,12 @@ const App = () => {
         <Slide backgroundColor="#F6F6F6" transition={transition4}>
           <About />
         </Slide>
+
         <Slide backgroundColor="#F6F6F6" transition={transition2}>
-          <Whyme />
+          <Projects />
         </Slide>
         <Slide backgroundColor="#F6F6F6" transition={transition4}>
-          <Projects />
+          <Whyme />
         </Slide>
         <Slide>
           <Quote>
