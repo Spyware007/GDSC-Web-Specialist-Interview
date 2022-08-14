@@ -56,3 +56,62 @@ body::-webkit-scrollbar-thumb:hover {
   cursor: pointer;
   width: 4rem;
 }
+.section_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blown {
+  width: 400px;
+}
+.link {
+  all: unset;
+  padding: 15px 80px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #262626;
+  font-size: 45px;
+  letter-spacing: 2px;
+  border: 5px solid #262626;
+  position: relative;
+  transition: 1s;
+}
+
+a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  transition: 1s;
+  transform: rotateX(90deg);
+  z-index: -1;
+}
+
+.link:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  transition: 1s;
+  transform: rotateY(90deg);
+  z-index: -1;
+}
+
+.link:hover:before {
+  transform: rotateX(0);
+}
+
+.link:hover:after {
+  transform: rotateY(0);
+}
+
+.link:hover {
+  color: white;
+}

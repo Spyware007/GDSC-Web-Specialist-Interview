@@ -1,0 +1,38 @@
+.surprise_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.surprise {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 0 500px;
+}
+.question {
+  color: #000;
+  font-family: QuicksandBold;
+  margin-bottom: 80px;
+}
+.option {
+  color: rgb(100, 100, 100);
+  font-family: BeVietnam;
+  white-space: nowrap;
+  margin-bottom: 40px;
+}
+.divide {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  margin-left: -40px;
+}
+.think {
+  width: 400px;
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+}
