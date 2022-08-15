@@ -1,6 +1,14 @@
 import React, { useEffect } from 'react';
 import { Deck, Slide, Heading, Quote } from 'spectacle';
-import { Main, About, Vision, Projects, Clubs, Surprise } from './Components';
+import {
+  Main,
+  About,
+  Vision,
+  Projects,
+  Clubs,
+  Surprise,
+  Thanks
+} from './Components';
 import { ProjectsData } from './Assets/Data/ProjectsData';
 import blown from './Assets/Memoji/10.png';
 import {
@@ -46,7 +54,7 @@ const App = () => {
         <Slide backgroundColor="#F6F6F6">
           <Clubs />
         </Slide>
-        <Slide backgroundColor="#F6F6F6" transition={transition4}>
+        <Slide backgroundColor="#F6F6F6" transition={transition2}>
           <Surprise />
         </Slide>
         <Slide backgroundColor="#F6F6F6">
@@ -54,6 +62,8 @@ const App = () => {
             <img className="blown" src={blown} alt="blown" />
             <a
               className="link"
+              target="_blank"
+              rel="noreferrer noopener"
               href="https://gdsc-web-specialist-interview.vercel.app/"
             >
               Link
@@ -62,6 +72,9 @@ const App = () => {
         </Slide>
         <Slide backgroundColor="#F6F6F6" transition={transition4}>
           <Vision />
+        </Slide>
+        <Slide backgroundColor="#000000">
+          <Thanks />
         </Slide>
       </Deck>
     </>

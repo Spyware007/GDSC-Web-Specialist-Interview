@@ -1,9 +1,15 @@
+.text {
+  color: #000;
+  font-family: QuicksandBold;
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 40px;
+}
 .project_section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #000;
-  margin-top: 180px;
 }
 .project_img_container {
   width: 350px;

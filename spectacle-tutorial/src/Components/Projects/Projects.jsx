@@ -10,7 +10,13 @@ const Projects = ({ project }) => {
       <div className={classes.project_section}>
         <div className={classes.project_img_container}>
           <img className={classes.project_img} src={project.img} alt="" />
-          <h6 className={classes.commits}>{`${project.commits}+ Commits`}</h6>
+          <h6 className={classes.commits}>
+            {project.commits
+              ? `${project.commits}k+ Lines of Code`
+              : project.commitss
+              ? 'A Chrome Extension'
+              : `${project.stars}+ stars`}
+          </h6>
         </div>
         <div className={classes.project_content}>
           <h5 className={classes.project_tech}>{project.tech}</h5>

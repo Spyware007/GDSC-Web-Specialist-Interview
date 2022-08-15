@@ -9,7 +9,9 @@ const Surprise = () => {
       <Navbar active="surprise" />
       <div className={classes.surprise_section}>
         <div className={classes.surprise}>
-          <h1 className={classes.question}>Can you guess..?</h1>
+          <h1 className={classes.question}>
+            Can you guess the software I used to make this PPT?
+          </h1>
           <div className={classes.divide}>
             <div>
               <h2 className={classes.option}>Canva</h2>

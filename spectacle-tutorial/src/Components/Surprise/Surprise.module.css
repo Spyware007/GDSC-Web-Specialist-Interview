@@ -9,12 +9,14 @@
   align-items: flex-start;
   flex-direction: column;
   margin-top: 100px;
-  padding: 0 500px;
+  margin-right: 300px;
+  padding: 0 300px;
 }
 .question {
   color: #000;
   font-family: QuicksandBold;
   margin-bottom: 80px;
+  width: 500px;
 }
 .option {
   color: rgb(100, 100, 100);

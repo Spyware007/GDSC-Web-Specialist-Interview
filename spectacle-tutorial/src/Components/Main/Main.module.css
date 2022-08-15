@@ -1,7 +1,3 @@
-.circlegrid {
-  bottom: 30px;
-  right: 100px;
-}
 .main {
   display: flex;
   justify-content: space-between;
@@ -27,7 +23,7 @@
   width: 300px;
   position: absolute;
   right: 100px;
-  bottom: 40px;
+  bottom: -40px;
 }
 
 .main::before {

@@ -1,0 +1,13 @@
+.thanks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+.author {
+  position: absolute;
+  bottom: 100px;
+  right: 80px;
+  color: #fff;
+  font-family: QuicksandBold;
+}
