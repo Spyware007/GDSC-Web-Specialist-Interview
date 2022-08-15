@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className={classes.about_content}>
           <h5 className={classes.about_nick}>Spider</h5>
-          <h1 className={classes.about_text}>About Me</h1>
+          <h1 className={classes.about_text}>&lt;About Me/&gt;</h1>
           <div className={classes.separator}></div>
 
           <ul className={classes.about_list}>

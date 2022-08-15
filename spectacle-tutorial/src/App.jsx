@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Deck, Slide, Heading, Quote } from 'spectacle';
+import { Deck, Slide } from 'spectacle';
 import {
   Main,
   About,
@@ -11,12 +11,7 @@ import {
 } from './Components';
 import { ProjectsData } from './Assets/Data/ProjectsData';
 import blown from './Assets/Memoji/10.png';
-import {
-  transition1,
-  transition2,
-  transition3,
-  transition4
-} from './constants';
+import { transition1, transition2, transition4 } from './constants';
 
 // const theme = {
 //   colors: {
@@ -59,6 +54,7 @@ const App = () => {
           <Surprise />
         </Slide>
         <Slide backgroundColor={slideColor}>
+          <h1 className="check">Let&apos;s check the answer, shall we?</h1>
           <div className="section_link">
             <img className="blown" src={blown} alt="blown" />
             <a
@@ -67,7 +63,7 @@ const App = () => {
               rel="noreferrer noopener"
               href="https://gdsc-web-specialist-interview.vercel.app/"
             >
-              Link
+              Surprise
             </a>
           </div>
         </Slide>

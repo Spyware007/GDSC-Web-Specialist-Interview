@@ -6,7 +6,7 @@ const Navbar = ({ active }) => {
     <>
       <nav className={classes.nav}>
         <ul className={classes.list}>
-          {active != 'surprise' ? (
+          {active !== 'surprise' ? (
             <>
               <li
                 className={
@@ -15,7 +15,7 @@ const Navbar = ({ active }) => {
                     : classes.item
                 }
               >
-                About
+                &lt;HTML/&gt;
               </li>
               <li
                 className={
@@ -24,7 +24,7 @@ const Navbar = ({ active }) => {
                     : classes.item
                 }
               >
-                Projects
+                #CSS
               </li>
               <li
                 className={
@@ -33,7 +33,7 @@ const Navbar = ({ active }) => {
                     : classes.item
                 }
               >
-                Vision
+                {`{ JS }`}
               </li>
             </>
           ) : (
@@ -45,25 +45,7 @@ const Navbar = ({ active }) => {
                     : classes.item
                 }
               >
-                Fun Fact
-              </li>
-              <li
-                className={
-                  active === 'surprise'
-                    ? `${classes.item} ${classes.active}`
-                    : classes.item
-                }
-              >
-                Fun Fact
-              </li>
-              <li
-                className={
-                  active === 'surprise'
-                    ? `${classes.item} ${classes.active}`
-                    : classes.item
-                }
-              >
-                Fun Fact
+                Quiz Time
               </li>
             </>
           )}

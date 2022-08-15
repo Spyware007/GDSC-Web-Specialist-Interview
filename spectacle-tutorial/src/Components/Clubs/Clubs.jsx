@@ -7,7 +7,7 @@ const Clubs = () => {
   return (
     <>
       <Navbar active="projects" />
-      <h1 className={classes.text}>Club Websites</h1>
+      <h1 className={classes.text}>#Club Websites</h1>
       <div className={classes.project_section}>
         {ProjectsData2.map((p, i) => {
           return (

@@ -15,7 +15,8 @@
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  background-image: linear-gradient(315deg, #fff3a4 0%, #fff3a4 74%);
+  /* background-image: linear-gradient(315deg, #fff3a4 0%, #fff3a4 74%); */
+  background-color: #91e1ef;
   display: flex;
   justify-content: center;
   align-items: center;

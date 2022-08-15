@@ -33,8 +33,8 @@
   left: 10%;
   width: 100vw;
   height: 100vh;
-  background-color: #2e0cf1;
-  background-image: linear-gradient(315deg, #fff3a4 0%, #fff3a4 74%);
+  background-color: #91e1ef;
+  /* background-image: linear-gradient(315deg, #fff3a4 0%, #fff3a4 74%); */
   overflow: hidden;
   /* transform: skewX(40deg); */
   rotate: 45deg;

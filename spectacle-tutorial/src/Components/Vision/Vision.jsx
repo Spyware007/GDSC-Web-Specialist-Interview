@@ -9,14 +9,19 @@ const Vision = () => {
       <Navbar active="vision" />
       <div className={classes.vision}>
         {/* <h1 className={classes.text}>Vision</h1> */}
-        <div className={classes.separator}></div>
+        <div className={classes.separator1}></div>
         <ul className={classes.list}>
           <div className={classes.items}>
+            <Stepper tagName="li" alwaysVisible values={['const visions = { ']}>
+              {(value, step, isActive) => (isActive ? value : '')}
+            </Stepper>
+          </div>
+          <div className={classes.items}>
             <Stepper
               tagName="li"
               alwaysVisible
               values={[
-                '☻ Succeed my mentors and take forward their legacy as Web Dev Specialist.'
+                'Succeed my mentors and take forward their legacy as Web Dev Specialist,'
               ]}
             >
               {(value, step, isActive) => (isActive ? value : '')}
@@ -27,7 +32,7 @@ const Vision = () => {
               tagName="li"
               alwaysVisible
               values={[
-                '☻ Promote Web Development in the Community to another level.'
+                'Promote Web Development in the Community to another level,'
               ]}
             >
               {(value, step, isActive) => (isActive ? value : '')}
@@ -37,7 +42,7 @@ const Vision = () => {
             <Stepper
               tagName="li"
               alwaysVisible
-              values={['☻ Workshop on APIs 101 with Postman']}
+              values={['Workshop on APIs 101 with Postman,']}
             >
               {(value, step, isActive) => (isActive ? value : '')}
             </Stepper>
@@ -46,13 +51,18 @@ const Vision = () => {
             <Stepper
               tagName="li"
               alwaysVisible
-              values={['☻ Organize a National Level Hackathon.']}
+              values={['Organize a National Level Hackathon']}
             >
+              {(value, step, isActive) => (isActive ? value : '')}
+            </Stepper>
+          </div>
+          <div className={classes.items}>
+            <Stepper tagName="li" alwaysVisible values={['}']}>
               {(value, step, isActive) => (isActive ? value : '')}
             </Stepper>
           </div>
         </ul>
-        <div className={classes.separator}></div>
+        <div className={classes.separator2}></div>
       </div>
     </>
   );

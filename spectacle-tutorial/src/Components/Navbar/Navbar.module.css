@@ -14,9 +14,12 @@
 .item {
   list-style-type: none;
   padding: 10px 30px;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  font-size: 20px;
 }
 .active {
-  background-color: #fff3a4;
+  background-color: #91e1ef;
   font-family: BeVietnamBold;
   color: #000;
 }

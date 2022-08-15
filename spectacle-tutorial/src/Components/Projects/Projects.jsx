@@ -20,7 +20,7 @@ const Projects = ({ project }) => {
         </div>
         <div className={classes.project_content}>
           <h5 className={classes.project_tech}>{project.tech}</h5>
-          <h1 className={classes.project_name}>{project.name}</h1>
+          <h1 className={classes.project_name}>#{project.name}</h1>
           <div className={classes.separator}></div>
           <p className={classes.project_description}>{project.desc}</p>
         </div>

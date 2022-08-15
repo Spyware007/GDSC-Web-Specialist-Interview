@@ -10,8 +10,8 @@
   left: 10%;
   width: 35vw;
   height: 100vh;
-  background-color: #2e0cf1;
-  background-image: linear-gradient(315deg, #fff3a4 0%, #fff3a4 74%);
+  background-color: #91e1ef;
+  /* background-image: linear-gradient(315deg, #fff3a4 0%, #fff3a4 74%); */
   overflow: hidden;
   /* transform: skewX(40deg); */
   /* rotate: 45deg; */
@@ -33,6 +33,7 @@
 .about_nick {
   font-family: BeVietnam;
   margin-left: 10px;
+  font-size: 16px;
 }
 .about_text {
   font-family: Quicksand;
@@ -41,7 +42,8 @@
 .separator {
   width: 90px;
   height: 4px;
-  background-image: linear-gradient(315deg, #fff3a4 0%, #fff3a4 74%);
+  /* background-image: linear-gradient(315deg, #fff3a4 0%, #fff3a4 74%); */
+  background-color: #91e1ef;
   border-radius: 20px;
   margin: 30px 0;
 }
