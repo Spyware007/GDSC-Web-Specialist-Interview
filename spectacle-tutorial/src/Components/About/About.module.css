@@ -33,7 +33,7 @@
 .about_nick {
   font-family: BeVietnam;
   margin-left: 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
 .about_text {
   font-family: Quicksand;
@@ -56,6 +56,7 @@
   row-gap: 10px;
   color: #fff;
   font-family: BeVietnam;
+  font-size: 18px;
 }
 .github {
   color: #000;
