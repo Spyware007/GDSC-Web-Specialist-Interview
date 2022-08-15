@@ -18,47 +18,55 @@ const About = () => {
           <div className={classes.separator}></div>
 
           <ul className={classes.about_list}>
-            <Stepper tagName="li" alwaysVisible values={['3rd Year Computer']}>
-              {(value, step, isActive) => (isActive ? value : '')}
-            </Stepper>
             <Stepper
               tagName="li"
               alwaysVisible
-              values={['Full-stack Developer']}
-            >
-              {(value, step, isActive) => (isActive ? value : '')}
-            </Stepper>
-            <Stepper tagName="li" alwaysVisible values={['Open Sourcerer']}>
-              {(value, step, isActive) => (isActive ? value : '')}
-            </Stepper>
-            <Stepper
-              tagName="li"
-              alwaysVisible
-              values={['Content Creator (LinkedIn 3.6k+)']}
+              values={['3rd Year Computer 🧑‍💻']}
             >
               {(value, step, isActive) => (isActive ? value : '')}
             </Stepper>
             <Stepper
               tagName="li"
               alwaysVisible
-              values={['GDSC Technical Coordinator']}
+              values={['Full-stack Developer 🕸']}
+            >
+              {(value, step, isActive) => (isActive ? value : '')}
+            </Stepper>
+            <Stepper tagName="li" alwaysVisible values={['Open Sourcerer 🪄']}>
+              {(value, step, isActive) => (isActive ? value : '')}
+            </Stepper>
+            <Stepper
+              tagName="li"
+              alwaysVisible
+              values={['Content Creator (LinkedIn 3.6k+) 📈']}
             >
               {(value, step, isActive) => (isActive ? value : '')}
             </Stepper>
             <Stepper
               tagName="li"
               alwaysVisible
-              values={['Postman Student Expert']}
+              values={['GDSC Technical Coordinator 😎']}
             >
-              {(value, step, isActive) => (isActive ? value : '')}
-            </Stepper>
-            <Stepper tagName="li" alwaysVisible values={['Building Xp House']}>
               {(value, step, isActive) => (isActive ? value : '')}
             </Stepper>
             <Stepper
               tagName="li"
               alwaysVisible
-              values={['Participated in many hackathons']}
+              values={['Postman Student Expert 🚀']}
+            >
+              {(value, step, isActive) => (isActive ? value : '')}
+            </Stepper>
+            <Stepper
+              tagName="li"
+              alwaysVisible
+              values={['Building Xp House 🎯']}
+            >
+              {(value, step, isActive) => (isActive ? value : '')}
+            </Stepper>
+            <Stepper
+              tagName="li"
+              alwaysVisible
+              values={['Participated in many hackathons 💫']}
             >
               {(value, step, isActive) => (isActive ? value : '')}
             </Stepper>

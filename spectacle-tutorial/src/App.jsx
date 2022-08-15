@@ -74,7 +74,7 @@ const App = () => {
         <Slide backgroundColor={slideColor} transition={transition4}>
           <Vision />
         </Slide>
-        <Slide backgroundColor="#000000">
+        <Slide backgroundColor="#14212d">
           <Thanks />
         </Slide>
       </Deck>
