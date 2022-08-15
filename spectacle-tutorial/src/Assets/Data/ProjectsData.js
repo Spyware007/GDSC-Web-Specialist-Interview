@@ -1,6 +1,4 @@
-import draic from '../Projects/draic.png';
 import yttb from '../Projects/yttb.png';
-import cpmc from '../Projects/cpmc.png';
 import flipverse from '../Projects/flipverse.png';
 import ras from '../Projects/ras.png';
 export const ProjectsData = [
