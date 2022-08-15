@@ -50,6 +50,9 @@ const App = () => {
         <Slide backgroundColor={slideColor}>
           <Clubs />
         </Slide>
+        <Slide backgroundColor={slideColor} transition={transition4}>
+          <Vision />
+        </Slide>
         <Slide backgroundColor={slideColor} transition={transition2}>
           <Surprise />
         </Slide>
@@ -66,9 +69,6 @@ const App = () => {
               Surprise
             </a>
           </div>
-        </Slide>
-        <Slide backgroundColor={slideColor} transition={transition4}>
-          <Vision />
         </Slide>
         <Slide backgroundColor="#14212d">
           <Thanks />
