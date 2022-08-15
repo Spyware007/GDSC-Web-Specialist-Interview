@@ -28,6 +28,7 @@ import {
 //     paragraph: '28px'
 //   }
 // };
+const slideColor = '#222831';
 
 const App = () => {
   useEffect(() => {
@@ -38,26 +39,26 @@ const App = () => {
     <>
       <Deck>
         {/* theme={theme} */}
-        <Slide backgroundColor="#fff" transition={transition1}>
+        <Slide backgroundColor={slideColor} transition={transition1}>
           <Main />
         </Slide>
-        <Slide backgroundColor="#F6F6F6" transition={transition4}>
+        <Slide backgroundColor={slideColor} transition={transition4}>
           <About />
         </Slide>
         {ProjectsData.map((p, i) => {
           return (
-            <Slide key={i} backgroundColor="#F6F6F6">
+            <Slide key={i} backgroundColor={slideColor}>
               <Projects project={p} />
             </Slide>
           );
         })}
-        <Slide backgroundColor="#F6F6F6">
+        <Slide backgroundColor={slideColor}>
           <Clubs />
         </Slide>
-        <Slide backgroundColor="#F6F6F6" transition={transition2}>
+        <Slide backgroundColor={slideColor} transition={transition2}>
           <Surprise />
         </Slide>
-        <Slide backgroundColor="#F6F6F6">
+        <Slide backgroundColor={slideColor}>
           <div className="section_link">
             <img className="blown" src={blown} alt="blown" />
             <a
@@ -70,7 +71,7 @@ const App = () => {
             </a>
           </div>
         </Slide>
-        <Slide backgroundColor="#F6F6F6" transition={transition4}>
+        <Slide backgroundColor={slideColor} transition={transition4}>
           <Vision />
         </Slide>
         <Slide backgroundColor="#000000">

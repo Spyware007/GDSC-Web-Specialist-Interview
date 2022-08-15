@@ -28,7 +28,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  color: #000;
+  color: #ebe5da;
 }
 .about_nick {
   font-family: BeVietnam;
@@ -41,7 +41,7 @@
 .separator {
   width: 90px;
   height: 4px;
-  background-color: #000;
+  background-image: linear-gradient(315deg, #fff3a4 0%, #fff3a4 74%);
   border-radius: 20px;
   margin: 30px 0;
 }
@@ -52,7 +52,7 @@
   flex-direction: column;
   list-style-type: none;
   row-gap: 10px;
-  color: #5b5b5b;
+  color: #fff;
   font-family: BeVietnam;
 }
 .github {

@@ -71,22 +71,22 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 15px 80px;
   font-family: sans-serif;
   text-decoration: none;
-  color: #262626;
+  color: #ffffff;
   font-size: 45px;
   letter-spacing: 2px;
-  border: 5px solid #262626;
+  border: 5px solid #ffffff;
   position: relative;
   transition: 1s;
 }
 
-a:before {
+.link:before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #262626;
+  background-color: #ffffff;
   transition: 1s;
   transform: rotateX(90deg);
   z-index: -1;
@@ -99,7 +99,7 @@ a:before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #262626;
+  background-color: #ffffff;
   transition: 1s;
   transform: rotateY(90deg);
   z-index: -1;
@@ -114,5 +114,5 @@ a:before {
 }
 
 .link:hover {
-  color: white;
+  color: rgb(0, 0, 0);
 }

@@ -13,13 +13,13 @@
   padding: 0 300px;
 }
 .question {
-  color: #000;
+  color: #ffffff;
   font-family: QuicksandBold;
   margin-bottom: 80px;
   width: 500px;
 }
 .option {
-  color: rgb(100, 100, 100);
+  color: #e1e1e1;
   font-family: BeVietnam;
   white-space: nowrap;
   margin-bottom: 40px;
